@@ -1,0 +1,11 @@
+[package]
+name = "enum_into_cdrs_macro_derive"
+version = "0.1.0"
+authors = ["amita <amita.yadav@knoldus.in>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.11.11"
+quote = "0.3.15"

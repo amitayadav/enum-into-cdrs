@@ -1,0 +1,9 @@
+[package]
+name = "enum_into_cdrs_macro"
+version = "0.1.0"
+authors = ["amita <amita.yadav@knoldus.in>"]
+
+[dependencies]
+enum_into_cdrs_macro_derive = { path = "../enum_into_cdrs_macro/enum_into_cdrs_macro_derive" }
+cdrs_helpers_derive = '*'
+cdrs = "2.0.0-beta.3"
